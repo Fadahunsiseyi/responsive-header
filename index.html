@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./assets/img/favicon.png"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Responsive navbar - html, css</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav">
+    <!------------------------------------------------>
+    <!-- Header styling start -->
+    <!------------------------------------------------>
+    <header class="header">
+      <!-- Navbar -->
+      <nav id="main-nav" class="nav">
+        <!-- Brand link -->
+        <a href="#section-hero" class="nav-brand">
+          <!-- Brand Image or Text -->
+          <img src="./assets/img/logo.png" alt="Logo" class="nav-brand-logo" />
+          <img
+            src="./assets/img/logo-white.png"
+            alt="Logo"
+            class="nav-brand-logo-white"
+          />
+        </a>
+
+        <!-- Nav toggler button -->
+        <button class="nav-toggler">
+          <span class="nav-toggler-icon">&nbsp;</span>
+        </button>
+
+        <!-- List of nav links -->
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#section-hero" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-team" class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-testimonials" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="#section-contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!------------------------------------------------>
+    <!-- Header styling end -->
+    <!------------------------------------------------>
+
+    <main>
+      <section id="section-hero" class="hero section-hero">
+        <p data-aos="fade-up">Home</p>
+      </section>
+
+      <section id="section-about">
+        <p data-aos="fade-up">About</p>
+      </section>
+
+      <section id="section-services">
+        <p data-aos="fade-up">Services</p>
+      </section>
+
+      <section id="section-team">
+        <p data-aos="fade-up">Team</p>
+      </section>
+
+      <section id="section-testimonials">
+        <p data-aos="fade-up">Testimonials</p>
+      </section>
+
+      <section id="section-contact">
+        <p data-aos="fade-up">Contact</p>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom Script -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
